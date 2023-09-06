@@ -27,7 +27,7 @@ $result = $conn->query($userevents);
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>40022221 Web Project</title>
+    <title>GET FIT NOW</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
     <link rel="stylesheet" href="gui.css">
     <link rel="stylesheet" href="demo.css">

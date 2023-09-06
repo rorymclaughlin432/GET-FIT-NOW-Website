@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>40022221 Web Project</title>
+    <title>GET FIT NOW</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
     <link rel="stylesheet" href="gui.css">
 
@@ -53,7 +53,7 @@
                     to inspire yourself and inspire others.
                 </p>
 
-                <p> <img src="../MainWebProj/img/barbell-equipment-photos-gym-floor.jpg" width="50%" alt=""></p>
+                <p> <img src="./img/barbell-equipment-photos-gym-floor.jpg" width="50%" alt=""></p>
 
                 <p>When you join the Get Fit Now family, you can feel secure knowing your personal trainer 
                     is there to build you up and provide you with advice and positive reinforcement.

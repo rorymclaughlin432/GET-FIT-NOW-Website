@@ -1,7 +1,7 @@
 ﻿body.home {
     margin-top: 10px;
     margin: 0px 0px 0px 0px;
-    background-image: url(../MainWebProj/img/photo-1465080207318-3de7361f84e7.jpg);
+    background-image: url(./img/photo-1465080207318-3de7361f84e7.jpg);
     background-attachment: fixed;
     background-position-x: -100px;
     background-position-y: -100px;
@@ -13,7 +13,7 @@
 body.altwallpaper {
     margin-top: 10px;
     margin: 0px 0px 0px 0px;
-    background-image: url(../MainWebProj/img/rock-wilderness-walking-mountain-cloud-hiking-108324-pxhere.com.jpg);
+    background-image: url(./img/rock-wilderness-walking-mountain-cloud-hiking-108324-pxhere.com.jpg);
     background-attachment: fixed;
     background-position-x: -100px;
     background-position-y: -100px;
@@ -29,7 +29,7 @@ body.altwallpaper {
 header {
     width: 100%;
     height: 150px;
-    background-image: url("../MainWebProj/img/cropped-get-fit-logo-transparent-1.png");
+    background-image: url("./img/cropped-get-fit-logo-transparent-1.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position-x: center;
