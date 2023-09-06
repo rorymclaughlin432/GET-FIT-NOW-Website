@@ -1,0 +1,254 @@
+﻿body.home {
+    margin-top: 10px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../MainWebProj/img/photo-1465080207318-3de7361f84e7.jpg);
+    background-attachment: fixed;
+    background-position-x: -100px;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body.altwallpaper {
+    margin-top: 10px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../MainWebProj/img/rock-wilderness-walking-mountain-cloud-hiking-108324-pxhere.com.jpg);
+    background-attachment: fixed;
+    background-position-x: -100px;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.cld-main {
+    display: contents;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-image: url("../MainWebProj/img/cropped-get-fit-logo-transparent-1.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: transparent;
+    border-bottom: none;
+    padding: 20px 20px 20px 20px;
+}
+
+nav a,
+nav a:visited {
+    display: block;
+    color: white;
+    border-radius: var(--universal-border-radius);
+    transition: background 0.3s;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#mainContent {
+    display: block;
+    width: 90%;
+    margin-left: 0px;
+    padding: 10px 20px 20px 30px;
+    margin-top: 0px;
+}
+
+#userform {
+    display: grid;
+}
+
+.caltable {
+    border: 0px;
+    text-align: center;
+}
+
+.caltable2 {
+    text-align: center;
+}
+
+.card {
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.myButton {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #2e466e;
+    border-radius: 17px;
+    border: 1px solid #1f2f47;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 6px 13px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color: #415989;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.myNavButton {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #2e466e;
+    border-radius: 10px;
+    border: 1px solid #1f2f47;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 6px 13px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.myNavButton:hover {
+    background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color: #415989;
+}
+
+.myNavSideButton {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #2e466e;
+    border-radius: 10px;
+    border: 1px solid #1f2f47;
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 6px 13px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.myNavSideButton:hover {
+    background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color: #415989;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#blogtext {
+    text-align: center;
+}
+
+.mylogin {
+    text-align: center;
+}
+
+.demo {
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.thumbnail {
+    display: block;
+    max-width: 100%;
+}
+
+.row {
+    padding: 10px;
+}
+
+.sideimage {
+    float: left;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+@media only screen and (max-device-width: 800px) {
+    body {
+        width: 100%;
+        margin: 0px;
+        background-position-x: -100px;
+        background-position-y: -100px;
+    }
+    #header {
+        height: 50px;
+    }
+    #container {
+        width: 100%;
+    }
+    #maincontent {
+        display: block;
+        width: 100%;
+    }
+    #buttonnav {
+        margin-left: 0%;
+    }
+    #blogtext {
+        width: 100%;
+    }
+    .card {
+        max-width: 100%;
+        padding: 10px;
+        margin: 10px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        width: 100%;
+        margin: 0px;
+        background-position-x: -100px;
+        background-position-y: -100px;
+    }
+    #header {
+        height: 50px;
+    }
+    #container {
+        width: 100%;
+    }
+    #maincontent {
+        display: block;
+        width: 100%;
+    }
+    #buttonnav {
+        margin-left: 0%;
+    }
+    #blogtext {
+        width: 100%;
+        text-align: center;
+    }
+    .card {
+        max-width: 100%;
+        padding: 10px;
+        margin: 10px;
+        width: 85%;
+    }
+}
